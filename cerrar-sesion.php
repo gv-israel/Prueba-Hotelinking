@@ -2,6 +2,5 @@
 session_start();
 session_destroy();
 
-echo "<script>alert('Sesion cerrada correctamente.');</script>";
-header("Location: iniciar-sesion.php");
+echo "<script>alert('Sesion cerrada correctamente.');window.location='iniciar-sesion.php';</script>";
 ?>
